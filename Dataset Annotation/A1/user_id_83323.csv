@@ -1,0 +1,97 @@
+Filename,Camera View,Activity Type,Start Time,End Time,Label (Primary),Appearance Block
+Dashboard_user_id_83323_3,Dashboard,Distracted Behavior,0:00:08,0:00:11,Class 10,Hat
+,Dashboard,Distracted Behavior,0:00:35,0:00:42,Class 1,Hat
+,Dashboard,Distracted Behavior,0:01:17,0:01:21,Class 6,Hat
+,Dashboard,Distracted Behavior,0:01:55,0:02:02,Class 11,Hat
+,Dashboard,Distracted Behavior,0:02:26,0:02:30,Class 9,Hat
+,Dashboard,Distracted Behavior,0:02:50,0:03:09,Class 15,Hat
+,Dashboard,Distracted Behavior,0:03:22,0:03:27,Class 13,Hat
+,Dashboard,Distracted Behavior,0:03:48,0:04:09,Class 3,Hat
+,Dashboard,Distracted Behavior,0:04:26,0:04:41,Class 4,Hat
+,Dashboard,Distracted Behavior,0:05:01,0:05:09,Class 5,Hat
+,Dashboard,Distracted Behavior,0:05:24,0:05:45,Class 0,Hat
+,Dashboard,Distracted Behavior,0:05:59,0:06:07,Class 7,Hat
+,Dashboard,Distracted Behavior,0:06:19,0:06:44,Class 2,Hat
+,Dashboard,Distracted Behavior,0:06:57,0:07:08,Class 14,Hat
+,Dashboard,Distracted Behavior,0:07:32,0:07:40,Class 8,Hat
+,Dashboard,Distracted Behavior,0:08:06,0:08:28,Class 12,Hat
+Dashboard_user_id_83323_5,Dashboard,Distracted Behavior,0:00:08,0:00:11,Class 10,None
+,Dashboard,Distracted Behavior,0:00:35,0:00:38,Class 1,None
+,Dashboard,Distracted Behavior,0:01:11,0:01:20,Class 6,None
+,Dashboard,Distracted Behavior,0:01:53,0:02:00,Class 11,None
+,Dashboard,Distracted Behavior,0:02:26,0:02:30,Class 9,None
+,Dashboard,Distracted Behavior,0:02:50,0:03:09,Class 15,None
+,Dashboard,Distracted Behavior,0:03:22,0:03:27,Class 13,None
+,Dashboard,Distracted Behavior,0:03:48,0:04:09,Class 3,None
+,Dashboard,Distracted Behavior,0:04:26,0:04:41,Class 4,None
+,Dashboard,Distracted Behavior,0:04:58,0:05:09,Class 5,None
+,Dashboard,Distracted Behavior,0:05:24,0:05:45,Class 0,None
+,Dashboard,Distracted Behavior,0:05:59,0:06:07,Class 7,None
+,Dashboard,Distracted Behavior,0:06:19,0:06:44,Class 2,None
+,Dashboard,Distracted Behavior,0:07:02,0:07:11,Class 14,None
+,Dashboard,Distracted Behavior,0:07:33,0:07:41,Class 8,None
+,Dashboard,Distracted Behavior,0:08:06,0:08:28,Class 12,None
+Rear_view_user_id_83323_3,Rearview,Distracted Behavior,0:00:08,0:00:11,Class 10,Hat
+,Rearview,Distracted Behavior,0:00:35,0:00:42,Class 1,Hat
+,Rearview,Distracted Behavior,0:01:17,0:01:21,Class 6,Hat
+,Rearview,Distracted Behavior,0:01:55,0:02:02,Class 11,Hat
+,Rearview,Distracted Behavior,0:02:26,0:02:30,Class 9,Hat
+,Rearview,Distracted Behavior,0:02:50,0:03:09,Class 15,Hat
+,Rearview,Distracted Behavior,0:03:22,0:03:27,Class 13,Hat
+,Rearview,Distracted Behavior,0:03:48,0:04:09,Class 3,Hat
+,Rearview,Distracted Behavior,0:04:26,0:04:41,Class 4,Hat
+,Rearview,Distracted Behavior,0:05:01,0:05:09,Class 5,Hat
+,Rearview,Distracted Behavior,0:05:24,0:05:45,Class 0,Hat
+,Rearview,Distracted Behavior,0:05:59,0:06:07,Class 7,Hat
+,Rearview,Distracted Behavior,0:06:19,0:06:44,Class 2,Hat
+,Rearview,Distracted Behavior,0:06:57,0:07:08,Class 14,Hat
+,Rearview,Distracted Behavior,0:07:32,0:07:40,Class 8,Hat
+,Rearview,Distracted Behavior,0:08:06,0:08:28,Class 12,Hat
+Rear_view_user_id_83323_5,Rearview,Distracted Behavior,0:00:08,0:00:11,Class 10,None
+,Rearview,Distracted Behavior,0:00:35,0:00:38,Class 1,None
+,Rearview,Distracted Behavior,0:01:11,0:01:20,Class 6,None
+,Rearview,Distracted Behavior,0:01:53,0:02:00,Class 11,None
+,Rearview,Distracted Behavior,0:02:26,0:02:30,Class 9,None
+,Rearview,Distracted Behavior,0:02:50,0:03:09,Class 15,None
+,Rearview,Distracted Behavior,0:03:22,0:03:27,Class 13,None
+,Rearview,Distracted Behavior,0:03:48,0:04:09,Class 3,None
+,Rearview,Distracted Behavior,0:04:26,0:04:41,Class 4,None
+,Rearview,Distracted Behavior,0:04:58,0:05:09,Class 5,None
+,Rearview,Distracted Behavior,0:05:24,0:05:45,Class 0,None
+,Rearview,Distracted Behavior,0:05:59,0:06:07,Class 7,None
+,Rearview,Distracted Behavior,0:06:19,0:06:44,Class 2,None
+,Rearview,Distracted Behavior,0:07:02,0:07:11,Class 14,None
+,Rearview,Distracted Behavior,0:07:33,0:07:41,Class 8,None
+,Rearview,Distracted Behavior,0:08:06,0:08:28,Class 12,None
+Right_side_window_user_id_83323_3,Rightside Window,Distracted Behavior,0:00:08,0:00:11,Class 10,Hat
+,Rightside Window,Distracted Behavior,0:00:35,0:00:42,Class 1,Hat
+,Rightside Window,Distracted Behavior,0:01:17,0:01:21,Class 6,Hat
+,Rightside Window,Distracted Behavior,0:01:55,0:02:02,Class 11,Hat
+,Rightside Window,Distracted Behavior,0:02:26,0:02:30,Class 9,Hat
+,Rightside Window,Distracted Behavior,0:02:50,0:03:09,Class 15,Hat
+,Rightside Window,Distracted Behavior,0:03:22,0:03:27,Class 13,Hat
+,Rightside Window,Distracted Behavior,0:03:48,0:04:09,Class 3,Hat
+,Rightside Window,Distracted Behavior,0:04:26,0:04:41,Class 4,Hat
+,Rightside Window,Distracted Behavior,0:05:01,0:05:09,Class 5,Hat
+,Rightside Window,Distracted Behavior,0:05:24,0:05:45,Class 0,Hat
+,Rightside Window,Distracted Behavior,0:05:59,0:06:07,Class 7,Hat
+,Rightside Window,Distracted Behavior,0:06:19,0:06:44,Class 2,Hat
+,Rightside Window,Distracted Behavior,0:06:57,0:07:08,Class 14,Hat
+,Rightside Window,Distracted Behavior,0:07:32,0:07:40,Class 8,Hat
+,Rightside Window,Distracted Behavior,0:08:06,0:08:28,Class 12,Hat
+Right_side_window_user_id_83323_5,Rightside Window,Distracted Behavior,0:00:08,0:00:11,Class 10,None
+,Rightside Window,Distracted Behavior,0:00:35,0:00:38,Class 1,None
+,Rightside Window,Distracted Behavior,0:01:11,0:01:20,Class 6,None
+,Rightside Window,Distracted Behavior,0:01:53,0:02:00,Class 11,None
+,Rightside Window,Distracted Behavior,0:02:26,0:02:30,Class 9,None
+,Rightside Window,Distracted Behavior,0:02:50,0:03:09,Class 15,None
+,Rightside Window,Distracted Behavior,0:03:22,0:03:27,Class 13,None
+,Rightside Window,Distracted Behavior,0:03:48,0:04:09,Class 3,None
+,Rightside Window,Distracted Behavior,0:04:26,0:04:41,Class 4,None
+,Rightside Window,Distracted Behavior,0:04:58,0:05:09,Class 5,None
+,Rightside Window,Distracted Behavior,0:05:24,0:05:45,Class 0,None
+,Rightside Window,Distracted Behavior,0:05:59,0:06:07,Class 7,None
+,Rightside Window,Distracted Behavior,0:06:19,0:06:44,Class 2,None
+,Rightside Window,Distracted Behavior,0:07:02,0:07:11,Class 14,None
+,Rightside Window,Distracted Behavior,0:07:33,0:07:41,Class 8,None
+,Rightside Window,Distracted Behavior,0:08:06,0:08:28,Class 12,None
