@@ -1,0 +1,94 @@
+Filename,Camera View,Activity Type,Start Time,End Time,Label (Primary),Appearance Block
+Dashboard_User_id_60167_5,Dashboard,Distracted Behavior,0:00:09,0:00:23,Class 11,None
+,Dashboard,Distracted Behavior,0:00:41,0:01:00,Class 2,None
+,Dashboard,Distracted Behavior,0:01:13,0:01:25,Class 10,None
+,Dashboard,Distracted Behavior,0:01:38,0:01:46,Class 9,None
+,Dashboard,Distracted Behavior,0:02:04,0:02:20,Class 3,None
+,Dashboard,Distracted Behavior,0:02:35,0:02:42,Class 7,None
+,Dashboard,Distracted Behavior,0:02:59,0:03:02,Class 1,None
+,Dashboard,Distracted Behavior,0:03:29,0:03:35,Class 13,None
+,Dashboard,Distracted Behavior,0:04:05,0:04:20,Class 15,None
+,Dashboard,Distracted Behavior,0:05:15,0:05:25,Class 5,None
+,Dashboard,Distracted Behavior,0:05:48,0:05:54,Class 12,None
+,Dashboard,Distracted Behavior,0:06:20,0:06:23,Class 4,None
+,Dashboard,Distracted Behavior,0:06:42,0:06:57,Class 14,None
+,Dashboard,Distracted Behavior,0:07:16,0:07:28,Class 6,None
+,Dashboard,Distracted Behavior,0:07:54,0:08:01,Class 8,None
+,Dashboard,Distracted Behavior,0:08:01,0:08:14,Class 0,None
+Dashboard_User_id_60167_7,Dashboard,Distracted Behavior,0:00:08,0:00:15,Class 11,Sunglasses
+,Dashboard,Distracted Behavior,0:00:38,0:00:50,Class 2,Sunglasses
+,Dashboard,Distracted Behavior,0:01:13,0:01:17,Class 10,Sunglasses
+,Dashboard,Distracted Behavior,0:01:37,0:01:42,Class 9,Sunglasses
+,Dashboard,Distracted Behavior,0:02:01,0:02:18,Class 3,Sunglasses
+,Dashboard,Distracted Behavior,0:02:33,0:02:39,Class 7,Sunglasses
+,Dashboard,Distracted Behavior,0:02:59,0:03:02,Class 1,Sunglasses
+,Dashboard,Distracted Behavior,0:03:28,0:03:32,Class 13,Sunglasses
+,Dashboard,Distracted Behavior,0:04:07,0:04:28,Class 15,Sunglasses
+,Dashboard,Distracted Behavior,0:05:14,0:05:23,Class 5,Sunglasses
+,Dashboard,Distracted Behavior,0:06:17,0:06:20,Class 4,Sunglasses
+,Dashboard,Distracted Behavior,0:06:42,0:07:02,Class 14,Sunglasses
+,Dashboard,Distracted Behavior,0:07:16,0:07:27,Class 6,Sunglasses
+,Dashboard,Distracted Behavior,0:07:54,0:07:58,Class 8,Sunglasses
+,Dashboard,Distracted Behavior,0:08:00,0:08:14,Class 0,Sunglasses
+Rearview_User_id_60167_5,Rearview,Distracted Behavior,0:00:09,0:00:23,Class 11,None
+,Rearview,Distracted Behavior,0:00:41,0:01:00,Class 2,None
+,Rearview,Distracted Behavior,0:01:13,0:01:25,Class 10,None
+,Rearview,Distracted Behavior,0:01:38,0:01:46,Class 9,None
+,Rearview,Distracted Behavior,0:02:04,0:02:20,Class 3,None
+,Rearview,Distracted Behavior,0:02:35,0:02:42,Class 7,None
+,Rearview,Distracted Behavior,0:02:59,0:03:02,Class 1,None
+,Rearview,Distracted Behavior,0:03:29,0:03:35,Class 13,None
+,Rearview,Distracted Behavior,0:04:05,0:04:20,Class 15,None
+,Rearview,Distracted Behavior,0:05:15,0:05:25,Class 5,None
+,Rearview,Distracted Behavior,0:05:48,0:05:54,Class 12,None
+,Rearview,Distracted Behavior,0:06:20,0:06:23,Class 4,None
+,Rearview,Distracted Behavior,0:06:42,0:06:57,Class 14,None
+,Rearview,Distracted Behavior,0:07:16,0:07:28,Class 6,None
+,Rearview,Distracted Behavior,0:07:54,0:08:01,Class 8,None
+,Rearview,Distracted Behavior,0:08:01,0:08:14,Class 0,None
+Rearview_User_id_60167_7,Rearview,Distracted Behavior,0:00:08,0:00:15,Class 11,Sunglasses
+,Rearview,Distracted Behavior,0:00:38,0:00:50,Class 2,Sunglasses
+,Rearview,Distracted Behavior,0:01:13,0:01:17,Class 10,Sunglasses
+,Rearview,Distracted Behavior,0:01:37,0:01:42,Class 9,Sunglasses
+,Rearview,Distracted Behavior,0:02:01,0:02:18,Class 3,Sunglasses
+,Rearview,Distracted Behavior,0:02:33,0:02:39,Class 7,Sunglasses
+,Rearview,Distracted Behavior,0:02:59,0:03:02,Class 1,Sunglasses
+,Rearview,Distracted Behavior,0:03:28,0:03:32,Class 13,Sunglasses
+,Rearview,Distracted Behavior,0:04:07,0:04:28,Class 15,Sunglasses
+,Rearview,Distracted Behavior,0:05:14,0:05:23,Class 5,Sunglasses
+,Rearview,Distracted Behavior,0:06:17,0:06:20,Class 4,Sunglasses
+,Rearview,Distracted Behavior,0:06:42,0:07:02,Class 14,Sunglasses
+,Rearview,Distracted Behavior,0:07:16,0:07:27,Class 6,Sunglasses
+,Rearview,Distracted Behavior,0:07:54,0:07:58,Class 8,Sunglasses
+,Rearview,Distracted Behavior,0:08:00,0:08:14,Class 0,Sunglasses
+Right_side_window_User_id_60167_5,Rightside Window,Distracted Behavior,0:00:09,0:00:23,Class 11,None
+,Rightside Window,Distracted Behavior,0:00:41,0:01:00,Class 2,None
+,Rightside Window,Distracted Behavior,0:01:13,0:01:25,Class 10,None
+,Rightside Window,Distracted Behavior,0:01:38,0:01:46,Class 9,None
+,Rightside Window,Distracted Behavior,0:02:04,0:02:20,Class 3,None
+,Rightside Window,Distracted Behavior,0:02:35,0:02:42,Class 7,None
+,Rightside Window,Distracted Behavior,0:02:59,0:03:02,Class 1,None
+,Rightside Window,Distracted Behavior,0:03:29,0:03:35,Class 13,None
+,Rightside Window,Distracted Behavior,0:04:05,0:04:20,Class 15,None
+,Rightside Window,Distracted Behavior,0:05:15,0:05:25,Class 5,None
+,Rightside Window,Distracted Behavior,0:05:48,0:05:54,Class 12,None
+,Rightside Window,Distracted Behavior,0:06:20,0:06:23,Class 4,None
+,Rightside Window,Distracted Behavior,0:06:42,0:06:57,Class 14,None
+,Rightside Window,Distracted Behavior,0:07:16,0:07:28,Class 6,None
+,Rightside Window,Distracted Behavior,0:07:54,0:08:01,Class 8,None
+,Rightside Window,Distracted Behavior,0:08:01,0:08:14,Class 0,None
+Right_side_window_User_id_60167_7,Rightside Window,Distracted Behavior,0:00:08,0:00:15,Class 11,Sunglasses
+,Rightside Window,Distracted Behavior,0:00:38,0:00:50,Class 2,Sunglasses
+,Rightside Window,Distracted Behavior,0:01:13,0:01:17,Class 10,Sunglasses
+,Rightside Window,Distracted Behavior,0:01:37,0:01:42,Class 9,Sunglasses
+,Rightside Window,Distracted Behavior,0:02:01,0:02:18,Class 3,Sunglasses
+,Rightside Window,Distracted Behavior,0:02:33,0:02:39,Class 7,Sunglasses
+,Rightside Window,Distracted Behavior,0:02:59,0:03:02,Class 1,Sunglasses
+,Rightside Window,Distracted Behavior,0:03:28,0:03:32,Class 13,Sunglasses
+,Rightside Window,Distracted Behavior,0:04:07,0:04:28,Class 15,Sunglasses
+,Rightside Window,Distracted Behavior,0:05:14,0:05:23,Class 5,Sunglasses
+,Rightside Window,Distracted Behavior,0:06:17,0:06:20,Class 4,Sunglasses
+,Rightside Window,Distracted Behavior,0:06:42,0:07:02,Class 14,Sunglasses
+,Rightside Window,Distracted Behavior,0:07:16,0:07:27,Class 6,Sunglasses
+,Rightside Window,Distracted Behavior,0:07:54,0:07:58,Class 8,Sunglasses
+,Rightside Window,Distracted Behavior,0:08:00,0:08:14,Class 0,Sunglasses
