@@ -20,7 +20,11 @@ The code has been tested with the following hardware and software specifications
   -	Driver Version 470.129.06
   -	Cuda 11.3 and cudnn 8.
   
-## Installation (Train)
+  
+## Training Action classification model
+
+
+### Installation
 
 This installation step is needed for training ..
 
@@ -48,3 +52,13 @@ This installation step is needed for training ..
   pip install scipy
   pip install scikit-learn
   ```  
+  
+  
+### The workflow for training action classification model is as follow:
+
+  1. Dataset preparation <br/>
+    - **Trimming Videos** the input videos should be a trimmed videos i.e., contains only one action in each video. <br/>
+    - **Prepare csv Files** for the training and validation sets.
+  2. Download checkpoints from [here](https://drive.google.com/drive/folders/1RmWFoL_d-i2o83nXtXNZ3uLEH6UPa3Wk?usp=share_link)
+  3. Prepare the configuration file and start training.
+
