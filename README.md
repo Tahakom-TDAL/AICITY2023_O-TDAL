@@ -54,7 +54,7 @@ Completing this installation step is necessary for the training process.
   ```  
   
   
-### The workflow for training action classification model is as follow:
+### Training procedure
 
   1. Dataset preparation <br/>
     - **Trimming Videos** the input videos should be a trimmed videos i.e., contains only one action in each video. <br/>
