@@ -21,7 +21,7 @@ The code has been tested with the following hardware and software specifications
   -	Cuda 11.3 and cudnn 8.
   
   
-## Training Action classification model
+## Action classification model (Training)
 
 
 ### Installation
@@ -65,7 +65,7 @@ This installation step is needed for training ..
   
   
   
-## Inference 
+## Action classification model (Inference) 
   
 ### Installation
 
