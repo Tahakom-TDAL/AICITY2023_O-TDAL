@@ -61,7 +61,7 @@ Completing this installation step is necessary for the training process.
       ```bash
       python trim_videos.py --vid_path 'the path where the videos are saved in' --dist_path     'the path where the trimmed videos will be save' --view 'the needed video view to trim 1 for dashboard, 2 for right-side and 3 for rear view'
       ```   
-    - **Prepare csv Files** for the training and validation sets.
+      - **Prepare csv Files** for the training and validation sets.
   2. Download checkpoints from [here](https://drive.google.com/drive/folders/1RmWFoL_d-i2o83nXtXNZ3uLEH6UPa3Wk?usp=share_link)
   3. Prepare the configuration file and start training.
   
