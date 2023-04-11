@@ -61,4 +61,45 @@ This installation step is needed for training ..
     - **Prepare csv Files** for the training and validation sets.
   2. Download checkpoints from [here](https://drive.google.com/drive/folders/1RmWFoL_d-i2o83nXtXNZ3uLEH6UPa3Wk?usp=share_link)
   3. Prepare the configuration file and start training.
+  
+  
+  
+  
+## Inference 
+  
+### Installation
+
+This installation step is needed for inference ..
+
+
+1. Download **slowfast_inference.yml** into your local device, then create a conda environment
+  ```bash
+  conda env create -f  slowfast_inference.yml
+  conda activate slowfast_inference
+  ```   
+2. Install detectron and pytorchvideo, download them from our repository, then start to install them
+  ```bash
+  unzip detectron2_repo.zip
+  pip install -e detectron2_repo
+  unzip pytorchvideo.zip
+  cd pytorchvideo
+  pip install -e .
+  ```  
+3. Setup slowfast, download slowfast_Inference from our repository, then start to set it
+  ```bash
+  cd slowfast_Inference
+  python setup.py build develop
+  ```  
+4. Install the remaining dependencies 
+  ```bash
+  pip install scipy
+  pip install scikit-learn
+  ```  
+
+### The Inference steps for our framework as follow:
+  1.
+  2.
+  3.
+  4.
+  
 
