@@ -34,7 +34,7 @@ Completing this installation step is necessary for the training process.
   conda env create -f  slowfast.yml
   conda activate slowfast
   ```   
-2. To initiate the installation process, first, download detectron and pytorchvideo from our repository, and proceed with their installation.
+2. To initiate the installation process, first, download **detectron2_repo.zip** and **pytorchvideo.zip**, and proceed with their installation.
   ```bash
   unzip detectron2_repo.zip
   pip install -e detectron2_repo
