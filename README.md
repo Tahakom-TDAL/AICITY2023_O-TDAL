@@ -21,7 +21,7 @@ The code has been tested with the following hardware and software specifications
   -	Cuda 11.3 and cudnn 8.
   
   
-## Action classification model (Training)
+## Training Action classification model 
 
 
 ### Installation
@@ -56,7 +56,7 @@ Completing this installation step is necessary for the training process.
   
 ### Training procedure
 
-  1. Dataset preparation <br/>
+  1. Dataset preparation for right-side view and rear view <br/>
     - **Trimming Videos** the input videos should be a trimmed videos i.e., contains only one action in each video. 
       ```bash
       python trim_videos.py --vid_path 'the path where the videos are saved in' --dist_path 'the path where the trimmed videos will be save' --view 'the needed video view to trim 1 for dashboard, 2 for right-side and 3 for rear view'
@@ -71,11 +71,18 @@ Completing this installation step is necessary for the training process.
   
   
   
-## Action classification model (Inference) 
-  
-### Installation
+## Inference
+  To use O-TDAL framework and produce the same result in the leaderboard you need to **use the Right-side view and Rear angle view only** videos and follow the following steps:
+  1. Configuring slowfast environment. 
+  2. Dataset preparation. <br/>
+    - **Video Segmentation** to divide the untrimmed video into equal-length clips.
+    - **Prepare csv file** for the feature and classes probabilities extraction. <br/>
+  3. Extracting action clips probabilities.
+  4. Temporal localization to get the start and end time for each predicted distracted action in an untrimmed video.
 
-This installation step is needed for inference ..
+### Slowfast environment
+
+Completing this installation step is necessary for the training process.
 
 
 1. Download **slowfast_inference.yml** into your local device, then create a conda environment
@@ -83,7 +90,7 @@ This installation step is needed for inference ..
   conda env create -f  slowfast_inference.yml
   conda activate slowfast_inference
   ```   
-2. Install detectron and pytorchvideo, download them from our repository, then start to install them
+2. To initiate the installation process, first, download **detectron2_repo.zip** and **pytorchvideo.zip**, and proceed with their installation.
   ```bash
   unzip detectron2_repo.zip
   pip install -e detectron2_repo
@@ -91,7 +98,7 @@ This installation step is needed for inference ..
   cd pytorchvideo
   pip install -e .
   ```  
-3. To configure slowfast, obtain the **slowfast_train** from our repository and begin setting it up.
+3. To configure slowfast, obtain the **slowfast_Inference** from our repository and begin setting it up.
   ```bash
   cd slowfast_Inference
   python setup.py build develop
@@ -102,6 +109,12 @@ This installation step is needed for inference ..
   pip install scikit-learn
   ```  
 
+### Video segmentation
+
+The following command takes untrimmed video as input and generate equal-length clips. To produce the same result in the leaderboard you should use the segmentation type 1 settings. Type one setting will divide the untrimmed video into (video length in second/2) clips.
+ ```bash
+ python videoSegmentation.py --file_paths_video 'path to the root of folders that contains videos' --out_file 'specify the output path' --segmentation_type 1
+ ```
 ### The Inference steps for our framework as follow:
   1.
   2.
