@@ -26,7 +26,7 @@ The code has been tested with the following hardware and software specifications
 
 ### Installation
 
-This installation step is needed for training ..
+Completing this installation step is necessary for the training process.
 
 
 1. Download **slowfast.yml** into your local device, then create a conda environment
