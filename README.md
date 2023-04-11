@@ -47,7 +47,7 @@ Completing this installation step is necessary for the training process.
   cd slowfast_train
   python setup.py build develop
   ```  
-4. Install the remaining dependencies 
+4. Install the remaining dependencies. 
   ```bash
   pip install scipy
   pip install scikit-learn
