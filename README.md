@@ -42,7 +42,7 @@ Completing this installation step is necessary for the training process.
   cd pytorchvideo
   pip install -e .
   ```  
-3. Setup slowfast, download slowfast_train from our repository, then start to set it
+3. To configure slowfast, obtain the **slowfast_train** and begin setting it up.
   ```bash
   cd slowfast_train
   python setup.py build develop
