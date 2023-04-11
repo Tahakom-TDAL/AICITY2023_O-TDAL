@@ -380,7 +380,7 @@ if __name__ == "__main__":
         
     else :
     	file_paths_frames = glob.glob(args.file_paths_frames+"/*")
-        file_paths_video = ''
+    	file_paths_video = ''
         
     out_file = args.out_file
     
