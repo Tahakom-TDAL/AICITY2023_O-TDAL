@@ -17,7 +17,7 @@ For reproducibility, you must use all the code provided in this repo. Using any 
 
 The code has been tested with the following hardware and software specifications: <br />
   -	4 GPUs Tesla V100 with 32 GB memory. 
-  -	Driver Version 470.129.06
+  -	Driver Version 470.129.06.
   -	Cuda 11.3 and cudnn 8.
   
   
