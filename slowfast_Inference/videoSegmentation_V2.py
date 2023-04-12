@@ -364,10 +364,10 @@ if __name__ == "__main__":
     parser.add_argument('--out_file', metavar='path', required=False,
                         help='the path where the segments will be saved ..')
     
-    parser.add_argument('--segmentation_type', metavar='path', required=False,
+    parser.add_argument('--segmentation_type', metavar='type', required=False,
                         help='segmentation type 1 or 2, 3 ..')
     
-    parser.add_argument('--veiw_type', metavar='path', required=False,
+    parser.add_argument('--veiw_type', metavar='type', required=False,
                         help='view type Rear or Right ..')
 
     args = parser.parse_args()
