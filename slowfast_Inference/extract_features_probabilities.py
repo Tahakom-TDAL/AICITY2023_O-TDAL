@@ -50,10 +50,10 @@ if __name__ == "__main__":
     parser.add_argument('--checkpoint_path', metavar='path',
                         help='the path to the checkpoint.. ')
     
-    parser.add_argument('--model_name', metavar='path', required=False,
+    parser.add_argument('--model_name', metavar='name', required=False,
                         help='model name .. ')
     
-    parser.add_argument('--angle', metavar='path', required=False,
+    parser.add_argument('--angle', metavar='view type', required=False,
                         help='view type Rear or Right ..')
     
     parser.add_argument('--videos_segments', metavar='path', required=False,
