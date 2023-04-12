@@ -21,17 +21,17 @@ The code has been tested with the following hardware and software specifications
   -	Cuda 11.3 and cudnn 8.
  
 ## Inference
-  To use O-TDAL framework and produce the same result in the leaderboard you need to **use the Right-side view and Rear angle view only** videos and follow the following steps:
+  To use O-TDAL framework and produce the same result in the leaderboard (baseline module) you need to **use the Right-side view and Rear angle view only** videos and follow the following steps:
   1. Configuring slowfast environment. 
   2. Dataset preparation. <br/>
-    - **Video Segmentation** to divide the untrimmed video into equal-length clips.
-    - **Prepare csv file** for the feature and classes probabilities extraction. <br/>
+    - **Video Segmentation** to divide the untrimmed video into equal-length clips. <br/>
+    - **Prepare csv file** for the feature and classes probabilities extraction. 
   3. Extracting action clips probabilities.
   4. Temporal localization to get the start and end time for each predicted distracted action in an untrimmed video.
 
 ### Slowfast environment
 
-Completing this installation step is necessary for the training process.
+Completing this installation step is necessary for the inference process.
 
 
 1. Download **slowfast_inference.yml** into your local device, then create a conda environment
