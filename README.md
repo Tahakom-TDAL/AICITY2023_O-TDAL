@@ -113,7 +113,7 @@ Completing this installation step is necessary for the training process.
 
 The following command takes untrimmed video as input and generate equal-length clips. To produce the same result in the leaderboard you should use the segmentation type 1 settings. Type one setting will divide the untrimmed video into (video length in second/2) clips.
  ```bash
- python videoSegmentation.py --file_paths_video 'path to the root of folders that contains videos' --out_file 'specify the output path' --segmentation_type 1
+ python trim_videos.py --vid_path 'path to the root of folders that contains videos' --dist_path 'specify the output path' --view 'the needed video view to trim 1 for dashboard, 2 for right-side and 3 for rear view' --segmentation_type 1
  ```
 ### The Inference steps for our framework as follow:
   1.
