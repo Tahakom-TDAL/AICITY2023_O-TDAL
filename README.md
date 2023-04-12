@@ -115,6 +115,22 @@ The following command takes untrimmed video as input and generate equal-length c
  ```bash
  python trim_videos.py --vid_path 'path to the root of folders that contains videos' --dist_path 'specify the output path' --view 'the needed video view to trim 1 for dashboard, 2 for right-side and 3 for rear view' --segmentation_type 1
  ```
+ The vid_path directory should be as the following structure:
+```bash
+IDs
+├───user_id_#####
+│   │   Rear_view_user_id_#####_NoAudio_#.mp4
+│   │   Rear_view_user_id_#####_NoAudio_#.mp4
+│   │   Right_side_window_user_id_#####_NoAudio_#
+│   │   Right_side_window_user_id_#####_NoAudio_#
+│   │   
+│   ├───user_id_#####
+│   │   Rear_view_user_id_#####_NoAudio_#.mp4
+│   │   Rear_view_user_id_#####_NoAudio_#.mp4
+│   │   Right_side_window_user_id_#####_NoAudio_#
+│   │   Right_side_window_user_id_#####_NoAudio_#
+```
+
 ### The Inference steps for our framework as follow:
   1.
   2.
