@@ -56,7 +56,7 @@ Completing this installation step is necessary for the training process.
   
 ### Training procedure
 
-  1. Dataset preparation for right-side view and rear view <br/>
+  1. Dataset preparation for right-side view and rear view. <br/>
     - **Trimming Videos** the input videos should be a trimmed videos i.e., contains only one action in each video. 
       ```bash
       python trim_videos.py --vid_path 'the path where the videos are saved in' --dist_path 'the path where the trimmed videos will be save' --view 'the needed video view to trim 1 for dashboard, 2 for right-side and 3 for rear view'
@@ -66,7 +66,17 @@ Completing this installation step is necessary for the training process.
       python prepare_csv.py --vid_path 'the parent path of trimmed' --out_path 'the path of csv files to be saved' --view 'the needed video view 1 for dashboard, 2 for right-side and 3 for rear view'
       ``` 
   2. Download checkpoints from [here](https://drive.google.com/drive/folders/1RmWFoL_d-i2o83nXtXNZ3uLEH6UPa3Wk?usp=share_link)
-  3. Prepare the configuration file and start training.
+  3. Prepare the configuration file and start training.<br/>
+    - **Rear view**: 
+      ```bash
+      cd slowfast_train
+      python tools/run_net.py --cfg configs/Rear/SLOWFAST_8x8_R50_Rear_LR_Exp1.yaml DATA.PATH_TO_DATA_DIR 'path to the data folder that include train.csv and val.csv files' TRAIN.CHECKPOINT_FILE_PATH checkpoints/checkpoint_epoch_00440.pyth
+       ``` 
+      - **Right-side view**:
+      ```bash
+      cd slowfast_train
+      python tools/run_net.py --cfg configs/Right/SLOWFAST_8x8_R50_Right_LR_Exp1.yaml DATA.PATH_TO_DATA_DIR 'path to the data folder that include train.csv and val.csv files' TRAIN.CHECKPOINT_FILE_PATH checkpoints/checkpoint_epoch_00440.pyth
+       ```  
   
   
 ## Inference
