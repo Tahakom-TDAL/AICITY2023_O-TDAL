@@ -110,14 +110,14 @@ segments_folders
 ```
 
 ### Extract features and probabilities
-To extract the clips features and probabilities, run the following command after specifying the path for the test.csv generated in the previous step using DATA.PATH_TO_DATA_DIR argument. After that, specify the checkpoint of Right-side window (checkpoint_epoch_01035_right.pyth) or Rear view (checkpoint_epoch_01010_rear.pyth) using TEST.CHECKPOINT_FILE_PATH argument. If you do not have the checkpoints, you can download it from [here](https://drive.google.com/drive/folders/1EVJOy73PsG99p7EYZJEpextCDeQovldn)
+To extract the clips features and probabilities use **"slowfast_Inference/extract_features_probabilities.py"**. Run the following command after specifying the path for the test.csv generated in the previous step using DATA.PATH_TO_DATA_DIR argument. After that, specify the checkpoint of Right-side window (checkpoint_epoch_01035_right.pyth) or Rear view (checkpoint_epoch_01010_rear.pyth) using TEST.CHECKPOINT_FILE_PATH argument. If you do not have the checkpoints, you can download it from [here](https://drive.google.com/drive/folders/1EVJOy73PsG99p7EYZJEpextCDeQovldn)
 
   ```bash
 python extract_features_probabilities.py --config_path configs/Kinetics/SLOWFAST_8x8_R50.yaml --checkpoint_path checkpoints/checkpoint_epoch_01035_right.pyth --angle '2 for right-side and 3 for rear view' --videos_segments 'path to the root of folders that contains videos clips' --dist_path 'specify the output path'
   ``` 
 
 ### Temporal localization
-To generate the submission file that contains video id, action classes and the start and end time for each action. The baseline_TAL.py takes probabilities_path and vid_ids as input. probabilities_path is the path to the folder that contains the videos probabilities. Where, vid_ids is video_ids.csv contains the videos names and Ids.
+To generate the submission file that contains video id, action classes and the start and end time for each action. Use **"temporal_module/baseline/baseline_TAL.py"**. The baseline_TAL.py takes probabilities_path and vid_ids as input. probabilities_path is the path to the folder that contains the videos probabilities. Where, vid_ids is video_ids.csv contains the videos names and Ids.
 ```bash
 python baseline_TAL.py --vid_path 'path to the root of folders that contains videos' --vid_ids 'The path for video_ids.csv file; need for mapping' --probabilities_path 'path to the folder that contains folders of videos probabilities' 
 ``` 
