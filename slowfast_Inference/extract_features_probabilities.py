@@ -59,11 +59,11 @@ if __name__ == "__main__":
     parser.add_argument('--videos_segments', metavar='path', required=False,
                         help='the path of parent where the segments folders will be saved..')
     
-    parser.add_argument('--output', metavar='path', required=False,
+    parser.add_argument('--dist_path', metavar='path', required=False,
                         help='view type Rear or Right ..')
 
     args = parser.parse_args()
 
     checkpoint_type = 'pytorch'
     
-    main(args.config_path, args.checkpoint_path, checkpoint_type, args.model_name, args.angle, args.videos_segments, args.output)
+    main(args.config_path, args.checkpoint_path, checkpoint_type, args.model_name, args.angle, args.videos_segments, args.dist_path)
