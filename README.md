@@ -47,7 +47,7 @@ Completing this installation step is necessary for the inference process.
   cd pytorchvideo
   pip install -e .
   ```  
-3. To configure slowfast, obtain the **slowfast_Inference** from our repository and begin setting it up.
+3. To configure slowfast, obtain the **slowfast_Inference** and begin setting it up.
   ```bash
   cd slowfast_Inference
   python setup.py build develop
