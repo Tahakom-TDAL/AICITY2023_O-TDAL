@@ -121,5 +121,20 @@ probabilities_path
 ```
 
 
+---
+## Acknowledgement
+This repository depends heavily on [SlowFast]
+
+
+## General Notes 
+- Loading checkpoints from the google drive may take time due to the size of the checkpoint file.
+- We have reproduced the results and run the code on different machines. So, if you find different results than ours, please contact us.
+
+##  Contact information 
+If you faced any issues please don't hesitate to contact us :
+ > Munirahalyahya21@gmail.com <br />
+ > Amalsu0@gmail.com <br />
+ > Shahadaalghannam@gmail.com <br />
+ > Taghreedalhussan@gmail.com <br />
   
 
