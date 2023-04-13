@@ -119,7 +119,7 @@ python extract_features_probabilities.py --config_path configs/Kinetics/SLOWFAST
 ### Temporal localization
 To generate the submission file that contains video id, action classes and the start and end time for each action. The baseline_TAL.py takes probabilities_path and vid_ids as input. probabilities_path is the path to the folder that contains the videos probabilities. Where, vid_ids is video_ids.csv contains the videos names and Ids.
 ```bash
-python baseline_TAL.py --vid_path 'path to the root of folders that contains videos' --vid_ids 'The path for video_ids.csv file; need for mapping' --probabilities_path 'path to the folder that contains folders of videos probabilities' --out_file 'path to the folder where the temporal locations file to be saved'
+python baseline_TAL.py --vid_path 'path to the root of folders that contains videos' --vid_ids 'The path for video_ids.csv file; need for mapping' --probabilities_path 'path to the folder that contains folders of videos probabilities' 
 ``` 
 The input file structure should be as the following:
 ```bash
