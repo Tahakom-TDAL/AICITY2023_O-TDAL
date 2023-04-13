@@ -33,7 +33,7 @@ def main (config_path, checkpoint_path, checkpoint_type, model_name, angle, vide
     for video_segments in videos_segments:
 
         data_path = video_segments
-        saved_path_for_features_and_probability = Out + '/' + angle+'_features_and_probability_t1/' + data_path.split("/")[-1]
+        saved_path_for_features_and_probability = Out + '/' + angle_name+'_features_and_probability_t1/' + data_path.split("/")[-1]
         os.makedirs(saved_path_for_features_and_probability, exist_ok = True)
 
         print("========saved_path_for_features_and_probability========")
