@@ -142,7 +142,7 @@ probabilities_path
 
 ---
 ## Acknowledgement
-This repository depends heavily on [SlowFast]
+This repository depends heavily on [SlowFast](https://github.com/facebookresearch/SlowFast)
 
 
 ## General Notes 
