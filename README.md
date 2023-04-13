@@ -62,11 +62,12 @@ Completing this installation step is necessary for the inference process.
 
 The following command takes untrimmed video as input and generate equal-length clips. To produce the same result in the leaderboard you should use the segmentation type 1 setting. Type one setting will divide the untrimmed video into (video length in second/2) clips.
  ```bash
- python trim_videos.py --vid_path 'path to the root of folders that contains videos' --dist_path 'specify the output path' --view 'the needed video view to trim 1 for dashboard, 2 for right-side and 3 for rear view' --segmentation_type 1
+  python videoSegmentation.py --vid_path 'path to the root of folders that contains videos' --segmentation_type 1 --view 'the needed video view to trim 1 for dashboard, 2 for right-side and 3 for rear view'
  ```
+
  The vid_path directory should be as the following structure:
 ```bash
-IDs
+vid_path
 ├───user_id_*****
 │   │   Rear_view_user_id_*****_NoAudio_*.mp4
 │   │   Rear_view_user_id_*****_NoAudio_*.mp4
@@ -84,10 +85,29 @@ IDs
 ```
 
 ### Prepare csv file
-After completing the video segmentation step, you need to generate a csv file for video's clips. The csv file should contain all clips paths for a single video sorted **in ascending order** with dummy labels. If the order of paths is changed then it will result in an unexpected and wrong results in last stage. You can use **“makeData.py”** for that.
+
+After completing the video segmentation step, you need to generate a csv file for video's clips. The csv file should contain all clips paths for a single video sorted **in ascending order** with dummy labels. If the order of paths is changed then it will result in an unexpected and wrong results in last stage. You can use **“data_preparation/inference/prepare_csv.py”** for that.
   ```bash
-  python makeData.py --segments_folders 'path to the root of folders that contains videos clips'
+  python prepare_csv.py --segments_folders 'path to the root of folders that contains videos clips'
   ``` 
+The segments_folders directory should be as the following structure:
+```bash
+segments_folders
+├───Rear_view_user_id_*****_NoAudio_*
+│   │   P_00000.mp4
+│   │   P_00001.mp4
+│   │   P_00002.mp4
+│   │   P_00003.mp4
+│   │   ...
+│   │  
+│   ├───Rear_view_user_id_*****_NoAudio_*
+│   │   P_00000.mp4
+│   │   P_00001.mp4
+│   │   P_00002.mp4
+│   │   P_00003.mp4
+│   │   ...
+│   │  
+```
 
 ### Extract features and probabilities
 To extract the clips features and probabilities, run the following command after specifying the path for the test.csv generated in the previous step using DATA.PATH_TO_DATA_DIR argument. After that, specify the checkpoint of Right-side window (checkpoint_epoch_01035_right.pyth) or Rear view (checkpoint_epoch_01010_rear.pyth) using TEST.CHECKPOINT_FILE_PATH argument. If you do not have the checkpoints, you can download it from [here](https://drive.google.com/drive/folders/1EVJOy73PsG99p7EYZJEpextCDeQovldn)
