@@ -72,12 +72,15 @@ IDs
 │   │   Rear_view_user_id_*****_NoAudio_*.mp4
 │   │   Right_side_window_user_id_*****_NoAudio_*.mp4
 │   │   Right_side_window_user_id_*****_NoAudio_*.mp4
-│   │   
+│   │   ...
+│   │  
 │   ├───user_id_#####
 │   │   Rear_view_user_id_*****_NoAudio_*.mp4
 │   │   Rear_view_user_id_*****_NoAudio_*.mp4
 │   │   Right_side_window_user_id_*****_NoAudio_*.mp4
 │   │   Right_side_window_user_id_*****_NoAudio_*.mp4
+│   │   ...
+│   │  
 ```
 
 ### Prepare csv file
@@ -87,17 +90,36 @@ After completing the video segmentation step, you need to generate a csv file fo
   ``` 
 
 ### Extract features and probabilities
-To extract the clips features and probabilities, run the following command after specifying the path for the test.csv generated in the previous step using DATA.PATH_TO_DATA_DIR argument. after that, specify the checkpoint of Right-side window (checkpoint_epoch_01035_right.pyth) or Rear view (checkpoint_epoch_01010_rear.pyth) using TEST.CHECKPOINT_FILE_PATH argument. If you do not have the checkpoints, you can download it from [here](https://drive.google.com/drive/folders/1tN4aTWhPcCjnHzIvaVOjxVsYGfB13L0L?usp=sharing)
+To extract the clips features and probabilities, run the following command after specifying the path for the test.csv generated in the previous step using DATA.PATH_TO_DATA_DIR argument. After that, specify the checkpoint of Right-side window (checkpoint_epoch_01035_right.pyth) or Rear view (checkpoint_epoch_01010_rear.pyth) using TEST.CHECKPOINT_FILE_PATH argument. If you do not have the checkpoints, you can download it from [here](https://drive.google.com/drive/folders/1EVJOy73PsG99p7EYZJEpextCDeQovldn)
 
   ```bash
   python tools/run_net.py --cfg configs/Kinetics/SLOWFAST_8x8_R50.yaml DATA.PATH_TO_DATA_DIR 'path to the test.csv file' TEST.CHECKPOINT_FILE_PATH checkpoints/checkpoint_epoch_00730.pyth TEST.CHECKPOINT_TYPE pytorch
   python extract_features_probabilities.py --config_path configs/Kinetics/SLOWFAST_8x8_R50.yaml --checkpoint_path checkpoints/checkpoint_epoch_01035_right.pyth --angle '2 for right-side and 3 for rear view' --videos_segments 'path to the root of folders that contains videos clips' --dist_path 'specify the output path'
   ``` 
 
-### The Inference steps for our framework as follow:
-  1.
-  2.
-  3.
-  4.
+### Temporal localization
+To generate the submission file that contains video id, action classes and the start and end time for each action. The temporal_loc.py takes prob_path,  out_file and video_ids.csv as input. prob_path is the path to the folder that contains the videos probabilities. out_file is the path to the folder where the temporal locations txt file to be saved. Finally, video_ids.csv contains the videos names and Ids.
+```bash
+python baseline_TAL.py --vid_path G:\7th_AI_City_Challange\Dataset\A2\Data_reference\IDs --vid_ids 'The path for video_ids.csv file; need for mapping' --probabilities_path 'path to the folder that contains folders of videos probabilities' --out_file 'path to the folder where the temporal locations file to be saved'
+``` 
+The input file structure should be as the following:
+```bash
+probabilities_path
+├───Rear_view_user_id_*****_NoAudio_*
+│   │   P_00000.npz
+│   │   P_00001.npz
+│   │   P_00002.npz
+│   │   P_00003.npz
+│   │   ...
+│   │  
+│   ├───Right_side_window_user_id_*****_NoAudio_*
+│   │   P_00000.npz
+│   │   P_00001.npz
+│   │   P_00002.npz
+│   │   P_00003.npz
+│   │   ...
+```
+
+
   
 
