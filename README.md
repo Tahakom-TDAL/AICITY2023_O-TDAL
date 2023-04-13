@@ -67,17 +67,17 @@ The following command takes untrimmed video as input and generate equal-length c
  The vid_path directory should be as the following structure:
 ```bash
 IDs
-├───user_id_#####
-│   │   Rear_view_user_id_#####_NoAudio_#.mp4
-│   │   Rear_view_user_id_#####_NoAudio_#.mp4
-│   │   Right_side_window_user_id_#####_NoAudio_#
-│   │   Right_side_window_user_id_#####_NoAudio_#
+├───user_id_*****
+│   │   Rear_view_user_id_*****_NoAudio_*.mp4
+│   │   Rear_view_user_id_*****_NoAudio_*.mp4
+│   │   Right_side_window_user_id_*****_NoAudio_*.mp4
+│   │   Right_side_window_user_id_*****_NoAudio_*.mp4
 │   │   
 │   ├───user_id_#####
-│   │   Rear_view_user_id_#####_NoAudio_#.mp4
-│   │   Rear_view_user_id_#####_NoAudio_#.mp4
-│   │   Right_side_window_user_id_#####_NoAudio_#
-│   │   Right_side_window_user_id_#####_NoAudio_#
+│   │   Rear_view_user_id_*****_NoAudio_*.mp4
+│   │   Rear_view_user_id_*****_NoAudio_*.mp4
+│   │   Right_side_window_user_id_*****_NoAudio_*.mp4
+│   │   Right_side_window_user_id_*****_NoAudio_*.mp4
 ```
 
 ### Prepare csv file
