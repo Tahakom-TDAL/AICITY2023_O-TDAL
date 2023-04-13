@@ -21,7 +21,7 @@ The code has been tested with the following hardware and software specifications
   -	Cuda 11.3 and cudnn 8.
  
  
-## Training Action classification model 
+## Training Action Classification Model 
 
 
 ### Installation
